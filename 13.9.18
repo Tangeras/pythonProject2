@@ -1,0 +1,18 @@
+count = 0
+Sum=0
+N = int(input("Введите общее количество билетов"))
+while count < N:
+   age=int(input("Введите возраст участника конференции"))
+   n=int(input("Введите количество билетов"))
+   count=count+n
+   if age < 18:
+    Sum=Sum+n*0
+   elif  18 <= age < 25:
+    Sum = Sum+n * 990
+   elif age >= 25:
+    Sum=Sum + n * 1390
+if N >= 3:
+   Sum = Sum * 0.9
+   print("Общая стоимость вашего заказа", Sum, "руб.")
+else:
+   print("Общая стоимость вашего заказа", Sum, "руб.") 
