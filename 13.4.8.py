@@ -449,5 +449,6 @@
 # dict={1:"one", 2:"two", 3: "three"}
 # a = {item[0]: item[1] * 2 for item in dict.items()}
 # print(a)
-myfile=open('filename.txt','w')
+myfile=open('C:/Users/Татьяна/PycharmProjects/pythonProject2/filename.txt','w')
+print(myfile.read)
 
