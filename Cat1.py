@@ -15,28 +15,3 @@ class Cat1:
              return self.age
 
 
-
-
-    # def init_from_dict(self,cat):
-    #         self.name=cat.get("name")
-    #         self.gender=cat.get("gender")
-    #         self.age=cat.get("age")
-    #              cats = [
-    #              {"name": "Baron",
-    #              "gender": "boy",
-    #              "age": 2,
-    #              },
-    #             {"name": "Sam",
-    #              "gender": "boy",
-    #              "age": 2,
-    #              },
-    #                ]
-    #      for cat in cats:
-    #            cat_obj = Cat1(name=cat.get("name"),
-    #                         gender=cat.get("gender"),
-    #                         age=cat.get("age"))
-    #            print(cat_obj.name)
-
-
-
-
